@@ -31,14 +31,31 @@ h2 {
     width: 75%;
     float: left;
     padding-right: 30px;
+    position: relative;
+}
+.blog-post img {
+    height: 100px;
+}
+.date {
+    position: absolute;
+    top: 10px;
+    right: 30px;
 }
 .other-posts {
     width: 25%;
     float: left;
 }
+.other {
+    margin-bottom: 40px;
+}
 .author-box {
     border-top: 1px solid #333;
     padding-top: .7em;
+}
+.author-box img {
+    height: 100px;
+    border-radius: 50%;
+    float: left;
 }
 .main-text {
     text-align: justify;
@@ -46,4 +63,7 @@ h2 {
 }
 .author-text {
     font-style: italic;
+    float: left;
+    margin-top: 40px;
+    margin-left: 10px;
 }
