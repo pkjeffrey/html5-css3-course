@@ -171,8 +171,49 @@ header {
 
 /* Features */
 
+.section-features .long-copy {
+    margin-bottom: 30px;
+}
+
 .section-features ion-icon {
     font-size: 300%;
     color: #e67e22;
     margin-bottom: 10px;
+}
+
+/* Favourite Meals */
+
+.section-meals {
+    padding: 0;
+}
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meals-showcase figure {
+    width: 100%;
+    margin: 0;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.meals-showcase img {
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.meals-showcase img:hover {
+    opacity: 1;
+    transform: scale(1.03);
 }
