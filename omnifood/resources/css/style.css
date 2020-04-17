@@ -274,3 +274,40 @@ header {
     width: auto;
     margin-right: 10px;
 }
+
+/* Cities */
+
+.section-cities img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-feature {
+    margin-bottom: 10px;
+}
+
+.city-feature ion-icon {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    vertical-align: text-bottom;
+    margin-right: 10px;
+}
+
+.city-feature a:link,
+.city-feature a:visited {
+    color: #e67e22;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e67e22;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+.city-feature a:hover,
+.city-feature a:active {
+    color: #cf6d17;
+    border-bottom: 1px solid transparent;
+}
